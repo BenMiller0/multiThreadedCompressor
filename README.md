@@ -4,5 +4,5 @@ Multithreaded File Compressor in C++. Splits the input file into chunks and assi
 
 ## How to Run
 Compile: `make`  
-To compress: `./compressor targetFile outputFile`
+To compress: `./compressor targetFile outputFile` 
 To decompress: `./decompressor targetFile outputFile`
