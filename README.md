@@ -1,5 +1,8 @@
 # multiThreadedCompressor
-Multithreaded File Compressor in C++
+## Description
+Multithreaded File Compressor in C++. Splits the input file into chunks and assigns worker threads to each chunk for parrellel compression. Also included in a decompressor. 
 
-Compile: `g++ -std=c++11 -lz compress.cpp -o compressor`  
-Run: `./compressor input.txt compressed.z`
+## How to Run
+Compile: `make`  
+To compress: `./compressor targetFile outputFile`
+To decompress: `./decompressor targetFile outputFile`
